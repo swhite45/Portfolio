@@ -1,26 +1,83 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   margin: 0;
-  padding: 0;
+  padding: px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+.header {
+  padding: 20px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:seagreen;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+}
+.header h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+/* This displays the headings in the navigation bar inline with each other on the right hand side */
+.header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
 p {
   margin: 0;
 }
 
-ul
-list-style-type:none;
+ul { 
+  list-style-type:none;  
+}
+
+.hero-banner {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("02-hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.occupation {
+  position: absolute;
+  bottom: 475px;
+  right: 10px;
+  color:beige;
+  padding:20px;
+  border: 10px;
+  border-color: blue;
+}
+
+.page-wrapper {
+  margin: 20px;
+  padding: 20px;
+
+  
+}
+ 
+#aboutme
+
+#work
+
+#contactme
